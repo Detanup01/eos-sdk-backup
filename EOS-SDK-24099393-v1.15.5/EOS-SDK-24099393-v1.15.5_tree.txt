@@ -1,0 +1,1108 @@
+EOS-SDK-24099393-v1.15.5
+|   
++---Samples
+|   |   Samples.props
+|   |   Samples.sln
+|   |   
+|   +---Achievements
+|   |   |   Achievements.vcxproj
+|   |   |   Achievements.vcxproj.filters
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Achievements.cpp
+|   |           Achievements.h
+|   |           AchievementsDefinitionsDialog.cpp
+|   |           AchievementsDefinitionsDialog.h
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           
+|   +---AuthAndFriends
+|   |   |   AuthAndFriends.vcxproj
+|   |   |   AuthAndFriends.vcxproj.filters
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           CustomInviteReceivedDialog.cpp
+|   |           CustomInviteReceivedDialog.h
+|   |           CustomInvites.cpp
+|   |           CustomInvites.h
+|   |           CustomInvitesDialog.cpp
+|   |           CustomInvitesDialog.h
+|   |           CustomInviteSendDialog.cpp
+|   |           CustomInviteSendDialog.h
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           
+|   +---Leaderboard
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Leaderboard.vcxproj
+|   |   |   Leaderboard.vcxproj.filters
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Leaderboard.cpp
+|   |           Leaderboard.h
+|   |           LeaderboardDialog.cpp
+|   |           LeaderboardDialog.h
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           
+|   +---Lobbies
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Lobbies.vcxproj
+|   |   |   Lobbies.vcxproj.filters
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Lobbies.cpp
+|   |           Lobbies.h
+|   |           LobbiesDialog.cpp
+|   |           LobbiesDialog.h
+|   |           LobbyInviteReceivedDialog.cpp
+|   |           LobbyInviteReceivedDialog.h
+|   |           LobbyMemberTableRowView.cpp
+|   |           LobbyMemberTableRowView.h
+|   |           LobbySearchResultTableRowView.cpp
+|   |           LobbySearchResultTableRowView.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           NewLobbyDialog.cpp
+|   |           NewLobbyDialog.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           
+|   +---Mods
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Mods.vcxproj
+|   |   |   Mods.vcxproj.filters
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           Mods.cpp
+|   |           Mods.h
+|   |           ModsDialog.cpp
+|   |           ModsDialog.h
+|   |           ModsTableDialog.cpp
+|   |           ModsTableDialog.h
+|   |           ModsTableRowView.cpp
+|   |           ModsTableRowView.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           
+|   +---P2PNAT
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   P2PNAT.vcxproj
+|   |   |   P2PNAT.vcxproj.filters
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           P2PNAT.cpp
+|   |           P2PNAT.h
+|   |           P2PNATDialog.cpp
+|   |           P2PNATDialog.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           
+|   +---PlayerDataStorage
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   PlayerDataStorage.vcxproj
+|   |   |   PlayerDataStorage.vcxproj.filters
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           NewFileDialog.cpp
+|   |           NewFileDialog.h
+|   |           PlayerDataStorage.cpp
+|   |           PlayerDataStorage.h
+|   |           PlayerDataStorageDialog.cpp
+|   |           PlayerDataStorageDialog.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           
+|   +---SessionMatchmaking
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   SessionMatchmaking.vcxproj
+|   |   |   SessionMatchmaking.vcxproj.filters
+|   |   |   settings.manifest
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           NewSessionDialog.cpp
+|   |           NewSessionDialog.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           SessionInviteReceivedDialog.cpp
+|   |           SessionInviteReceivedDialog.h
+|   |           SessionMatchmaking.cpp
+|   |           SessionMatchmaking.h
+|   |           SessionMatchmakingDialog.cpp
+|   |           SessionMatchmakingDialog.h
+|   |           SessionsTableRowView.cpp
+|   |           SessionsTableRowView.h
+|   |           
+|   +---Shared
+|   |   +---Assets
+|   |   |       addbutton.dds
+|   |   |       audio_off.dds
+|   |   |       audio_on.dds
+|   |   |       black_grey_button.dds
+|   |   |       black_grey_button_pressed.dds
+|   |   |       bordered_horizontal_grey_box.dds
+|   |   |       button.dds
+|   |   |       button_pressed.dds
+|   |   |       checkbox_ticked.dds
+|   |   |       checkbox_unticked.dds
+|   |   |       console.dds
+|   |   |       dialog_title.dds
+|   |   |       dropdown_arrow.dds
+|   |   |       friendback.dds
+|   |   |       friends.dds
+|   |   |       Logo.dds
+|   |   |       menu_background.dds
+|   |   |       nobutton.dds
+|   |   |       progress_bar_finished.dds
+|   |   |       progress_bar_unfinished.dds
+|   |   |       refresh.dds
+|   |   |       Roboto-Bold.ttf
+|   |   |       Roboto-Regular.ttf
+|   |   |       Roboto10.spritefont
+|   |   |       Roboto12.spritefont
+|   |   |       Roboto14.spritefont
+|   |   |       Roboto16.spritefont
+|   |   |       Roboto18.spritefont
+|   |   |       Roboto24.spritefont
+|   |   |       Roboto8.spritefont
+|   |   |       RobotoBold10.spritefont
+|   |   |       RobotoBold12.spritefont
+|   |   |       RobotoBold14.spritefont
+|   |   |       RobotoBold16.spritefont
+|   |   |       RobotoBold18.spritefont
+|   |   |       RobotoBold24.spritefont
+|   |   |       scrollbar.dds
+|   |   |       scroll_down_button.dds
+|   |   |       scroll_up_button.dds
+|   |   |       search.dds
+|   |   |       solid_white.dds
+|   |   |       texteditor.dds
+|   |   |       textfield.dds
+|   |   |       wide_label.dds
+|   |   |       yesbutton.dds
+|   |   |       
+|   |   +---External
+|   |   |   +---curl
+|   |   |   |   +---Include
+|   |   |   |   |   \---curl
+|   |   |   |   |           curl.h
+|   |   |   |   |           curlver.h
+|   |   |   |   |           easy.h
+|   |   |   |   |           mprintf.h
+|   |   |   |   |           multi.h
+|   |   |   |   |           stdcheaders.h
+|   |   |   |   |           system.h
+|   |   |   |   |           typecheck-gcc.h
+|   |   |   |   |           urlapi.h
+|   |   |   |   |           
+|   |   |   |   \---Lib
+|   |   |   |       +---Win32
+|   |   |   |       |   \---Release
+|   |   |   |       |           libcurl.dll
+|   |   |   |       |           libcurl.lib
+|   |   |   |       |           
+|   |   |   |       \---Win64
+|   |   |   |           \---Release
+|   |   |   |                   libcurl.dll
+|   |   |   |                   libcurl.lib
+|   |   |   |                   
+|   |   |   +---DirectXTK
+|   |   |   |   +---Include
+|   |   |   |   |       Audio.h
+|   |   |   |   |       CommonStates.h
+|   |   |   |   |       DDSTextureLoader.h
+|   |   |   |   |       DirectXHelpers.h
+|   |   |   |   |       Effects.h
+|   |   |   |   |       GamePad.h
+|   |   |   |   |       GeometricPrimitive.h
+|   |   |   |   |       GraphicsMemory.h
+|   |   |   |   |       Keyboard.h
+|   |   |   |   |       Model.h
+|   |   |   |   |       Mouse.h
+|   |   |   |   |       PostProcess.h
+|   |   |   |   |       PrimitiveBatch.h
+|   |   |   |   |       ScreenGrab.h
+|   |   |   |   |       SimpleMath.h
+|   |   |   |   |       SimpleMath.inl
+|   |   |   |   |       SpriteBatch.h
+|   |   |   |   |       SpriteFont.h
+|   |   |   |   |       VertexTypes.h
+|   |   |   |   |       WICTextureLoader.h
+|   |   |   |   |       XboxDDSTextureLoader.h
+|   |   |   |   |       
+|   |   |   |   \---Lib
+|   |   |   |       +---Win32
+|   |   |   |       |   +---Debug
+|   |   |   |       |   |       DirectXTK.lib
+|   |   |   |       |   |       DirectXTK.pdb
+|   |   |   |       |   |       
+|   |   |   |       |   \---Release
+|   |   |   |       |           DirectXTK.lib
+|   |   |   |       |           DirectXTK.pdb
+|   |   |   |       |           
+|   |   |   |       \---x64
+|   |   |   |           +---Debug
+|   |   |   |           |       DirectXTK.lib
+|   |   |   |           |       DirectXTK.pdb
+|   |   |   |           |       
+|   |   |   |           \---Release
+|   |   |   |                   DirectXTK.lib
+|   |   |   |                   DirectXTK.pdb
+|   |   |   |                   
+|   |   |   +---GLEW
+|   |   |   |   +---include
+|   |   |   |   |   \---GL
+|   |   |   |   |           eglew.h
+|   |   |   |   |           glew.h
+|   |   |   |   |           glxew.h
+|   |   |   |   |           wglew.h
+|   |   |   |   |           
+|   |   |   |   \---lib
+|   |   |   |       \---Release
+|   |   |   |           +---x64
+|   |   |   |           |       glew32.dll
+|   |   |   |           |       glew32.lib
+|   |   |   |           |       glew32s.lib
+|   |   |   |           |       
+|   |   |   |           \---x86
+|   |   |   |                   glew32.dll
+|   |   |   |                   glew32.lib
+|   |   |   |                   glew32s.lib
+|   |   |   |                   
+|   |   |   +---httplib
+|   |   |   |       httplib.h
+|   |   |   |       
+|   |   |   +---rapidjson
+|   |   |   |   |   allocators.h
+|   |   |   |   |   cursorstreamwrapper.h
+|   |   |   |   |   document.h
+|   |   |   |   |   encodedstream.h
+|   |   |   |   |   encodings.h
+|   |   |   |   |   filereadstream.h
+|   |   |   |   |   filewritestream.h
+|   |   |   |   |   fwd.h
+|   |   |   |   |   istreamwrapper.h
+|   |   |   |   |   memorybuffer.h
+|   |   |   |   |   memorystream.h
+|   |   |   |   |   ostreamwrapper.h
+|   |   |   |   |   pointer.h
+|   |   |   |   |   prettywriter.h
+|   |   |   |   |   rapidjson.h
+|   |   |   |   |   reader.h
+|   |   |   |   |   schema.h
+|   |   |   |   |   stream.h
+|   |   |   |   |   stringbuffer.h
+|   |   |   |   |   writer.h
+|   |   |   |   |   
+|   |   |   |   +---error
+|   |   |   |   |       en.h
+|   |   |   |   |       error.h
+|   |   |   |   |       
+|   |   |   |   +---internal
+|   |   |   |   |       biginteger.h
+|   |   |   |   |       clzll.h
+|   |   |   |   |       diyfp.h
+|   |   |   |   |       dtoa.h
+|   |   |   |   |       ieee754.h
+|   |   |   |   |       itoa.h
+|   |   |   |   |       meta.h
+|   |   |   |   |       pow10.h
+|   |   |   |   |       regex.h
+|   |   |   |   |       stack.h
+|   |   |   |   |       strfunc.h
+|   |   |   |   |       strtod.h
+|   |   |   |   |       swap.h
+|   |   |   |   |       
+|   |   |   |   \---msinttypes
+|   |   |   |           inttypes.h
+|   |   |   |           stdint.h
+|   |   |   |           
+|   |   |   +---SDL2
+|   |   |   |   +---Include
+|   |   |   |   |       begin_code.h
+|   |   |   |   |       close_code.h
+|   |   |   |   |       SDL.h
+|   |   |   |   |       SDL_assert.h
+|   |   |   |   |       SDL_atomic.h
+|   |   |   |   |       SDL_audio.h
+|   |   |   |   |       SDL_bits.h
+|   |   |   |   |       SDL_blendmode.h
+|   |   |   |   |       SDL_clipboard.h
+|   |   |   |   |       SDL_config.h
+|   |   |   |   |       SDL_config.h.cmake
+|   |   |   |   |       SDL_config.h.in
+|   |   |   |   |       SDL_config_android.h
+|   |   |   |   |       SDL_config_iphoneos.h
+|   |   |   |   |       SDL_config_macosx.h
+|   |   |   |   |       SDL_config_minimal.h
+|   |   |   |   |       SDL_config_os2.h
+|   |   |   |   |       SDL_config_pandora.h
+|   |   |   |   |       SDL_config_psp.h
+|   |   |   |   |       SDL_config_windows.h
+|   |   |   |   |       SDL_config_winrt.h
+|   |   |   |   |       SDL_config_wiz.h
+|   |   |   |   |       SDL_copying.h
+|   |   |   |   |       SDL_cpuinfo.h
+|   |   |   |   |       SDL_egl.h
+|   |   |   |   |       SDL_endian.h
+|   |   |   |   |       SDL_error.h
+|   |   |   |   |       SDL_events.h
+|   |   |   |   |       SDL_filesystem.h
+|   |   |   |   |       SDL_gamecontroller.h
+|   |   |   |   |       SDL_gesture.h
+|   |   |   |   |       SDL_haptic.h
+|   |   |   |   |       SDL_hints.h
+|   |   |   |   |       SDL_joystick.h
+|   |   |   |   |       SDL_keyboard.h
+|   |   |   |   |       SDL_keycode.h
+|   |   |   |   |       SDL_loadso.h
+|   |   |   |   |       SDL_log.h
+|   |   |   |   |       SDL_main.h
+|   |   |   |   |       SDL_messagebox.h
+|   |   |   |   |       SDL_mouse.h
+|   |   |   |   |       SDL_mutex.h
+|   |   |   |   |       SDL_name.h
+|   |   |   |   |       SDL_opengl.h
+|   |   |   |   |       SDL_opengles.h
+|   |   |   |   |       SDL_opengles2.h
+|   |   |   |   |       SDL_opengles2_gl2.h
+|   |   |   |   |       SDL_opengles2_gl2ext.h
+|   |   |   |   |       SDL_opengles2_gl2platform.h
+|   |   |   |   |       SDL_opengles2_khrplatform.h
+|   |   |   |   |       SDL_opengl_glext.h
+|   |   |   |   |       SDL_pixels.h
+|   |   |   |   |       SDL_platform.h
+|   |   |   |   |       SDL_power.h
+|   |   |   |   |       SDL_quit.h
+|   |   |   |   |       SDL_rect.h
+|   |   |   |   |       SDL_render.h
+|   |   |   |   |       SDL_revision.h
+|   |   |   |   |       SDL_rwops.h
+|   |   |   |   |       SDL_scancode.h
+|   |   |   |   |       SDL_sensor.h
+|   |   |   |   |       SDL_shape.h
+|   |   |   |   |       SDL_stdinc.h
+|   |   |   |   |       SDL_surface.h
+|   |   |   |   |       SDL_system.h
+|   |   |   |   |       SDL_syswm.h
+|   |   |   |   |       SDL_test.h
+|   |   |   |   |       SDL_test_assert.h
+|   |   |   |   |       SDL_test_common.h
+|   |   |   |   |       SDL_test_compare.h
+|   |   |   |   |       SDL_test_crc32.h
+|   |   |   |   |       SDL_test_font.h
+|   |   |   |   |       SDL_test_fuzzer.h
+|   |   |   |   |       SDL_test_harness.h
+|   |   |   |   |       SDL_test_images.h
+|   |   |   |   |       SDL_test_log.h
+|   |   |   |   |       SDL_test_md5.h
+|   |   |   |   |       SDL_test_memory.h
+|   |   |   |   |       SDL_test_random.h
+|   |   |   |   |       SDL_thread.h
+|   |   |   |   |       SDL_timer.h
+|   |   |   |   |       SDL_touch.h
+|   |   |   |   |       SDL_types.h
+|   |   |   |   |       SDL_version.h
+|   |   |   |   |       SDL_video.h
+|   |   |   |   |       SDL_vulkan.h
+|   |   |   |   |       
+|   |   |   |   +---Lib
+|   |   |   |   |   +---x64
+|   |   |   |   |   |   +---Debug
+|   |   |   |   |   |   |       SDL2-staticd.lib
+|   |   |   |   |   |   |       SDL2d.dll
+|   |   |   |   |   |   |       SDL2d.exp
+|   |   |   |   |   |   |       SDL2d.ilk
+|   |   |   |   |   |   |       SDL2d.lib
+|   |   |   |   |   |   |       SDL2d.pdb
+|   |   |   |   |   |   |       SDL2maind.lib
+|   |   |   |   |   |   |       
+|   |   |   |   |   |   \---Release
+|   |   |   |   |   |           SDL2-static.lib
+|   |   |   |   |   |           SDL2.dll
+|   |   |   |   |   |           SDL2.exp
+|   |   |   |   |   |           SDL2.ilk
+|   |   |   |   |   |           SDL2.lib
+|   |   |   |   |   |           SDL2.pdb
+|   |   |   |   |   |           SDL2main.lib
+|   |   |   |   |   |           
+|   |   |   |   |   \---x86
+|   |   |   |   |       +---Debug
+|   |   |   |   |       |       SDL2-staticd.lib
+|   |   |   |   |       |       SDL2d.dll
+|   |   |   |   |       |       SDL2d.exp
+|   |   |   |   |       |       SDL2d.ilk
+|   |   |   |   |       |       SDL2d.lib
+|   |   |   |   |       |       SDL2d.pdb
+|   |   |   |   |       |       SDL2maind.lib
+|   |   |   |   |       |       
+|   |   |   |   |       \---Release
+|   |   |   |   |               SDL2-static.lib
+|   |   |   |   |               SDL2.dll
+|   |   |   |   |               SDL2.exp
+|   |   |   |   |               SDL2.ilk
+|   |   |   |   |               SDL2.lib
+|   |   |   |   |               SDL2.pdb
+|   |   |   |   |               SDL2main.lib
+|   |   |   |   |               
+|   |   |   |   \---SDL2_ttf
+|   |   |   |       |   CHANGES.txt
+|   |   |   |       |   COPYING.txt
+|   |   |   |       |   README.txt
+|   |   |   |       |   
+|   |   |   |       +---include
+|   |   |   |       |       SDL_ttf.h
+|   |   |   |       |       
+|   |   |   |       \---lib
+|   |   |   |           +---x64
+|   |   |   |           |       libfreetype-6.dll
+|   |   |   |           |       LICENSE.freetype.txt
+|   |   |   |           |       LICENSE.zlib.txt
+|   |   |   |           |       SDL2_ttf.dll
+|   |   |   |           |       SDL2_ttf.lib
+|   |   |   |           |       zlib1.dll
+|   |   |   |           |       
+|   |   |   |           \---x86
+|   |   |   |                   libfreetype-6.dll
+|   |   |   |                   LICENSE.freetype.txt
+|   |   |   |                   LICENSE.zlib.txt
+|   |   |   |                   SDL2_ttf.dll
+|   |   |   |                   SDL2_ttf.lib
+|   |   |   |                   zlib1.dll
+|   |   |   |                   
+|   |   |   \---UTF8-CPP
+|   |   |       +---doc
+|   |   |       |       ReleaseNotes
+|   |   |       |       utf8cpp.html
+|   |   |       |       
+|   |   |       \---source
+|   |   |           |   utf8.h
+|   |   |           |   
+|   |   |           \---utf8
+|   |   |                   checked.h
+|   |   |                   core.h
+|   |   |                   unchecked.h
+|   |   |                   
+|   |   \---Source
+|   |       |   BaseGame.cpp
+|   |       |   BaseGame.h
+|   |       |   BaseLevel.cpp
+|   |       |   BaseLevel.h
+|   |       |   BaseMenu.cpp
+|   |       |   BaseMenu.h
+|   |       |   pch.cpp
+|   |       |   pch.h
+|   |       |   
+|   |       +---Core
+|   |       |       AccountHelpers.cpp
+|   |       |       AccountHelpers.h
+|   |       |       Authentication.cpp
+|   |       |       Authentication.h
+|   |       |       EosUI.cpp
+|   |       |       EosUI.h
+|   |       |       Friends.cpp
+|   |       |       Friends.h
+|   |       |       GameEvent.h
+|   |       |       HTTPClient.cpp
+|   |       |       HTTPClient.h
+|   |       |       Metrics.cpp
+|   |       |       Metrics.h
+|   |       |       Platform.cpp
+|   |       |       Platform.h
+|   |       |       Player.cpp
+|   |       |       Player.h
+|   |       |       Users.cpp
+|   |       |       Users.h
+|   |       |       
+|   |       +---Graphics
+|   |       |   |   Console.cpp
+|   |       |   |   Console.h
+|   |       |   |   GfxComponent.h
+|   |       |   |   Model.cpp
+|   |       |   |   Model.h
+|   |       |   |   SDLSpriteBatch.cpp
+|   |       |   |   SDLSpriteBatch.h
+|   |       |   |   VectorRender.cpp
+|   |       |   |   VectorRender.h
+|   |       |   |   
+|   |       |   \---GUI
+|   |       |           AnimatedTexture.cpp
+|   |       |           AnimatedTexture.h
+|   |       |           AssetUtils.cpp
+|   |       |           AssetUtils.h
+|   |       |           AuthDialogs.cpp
+|   |       |           AuthDialogs.h
+|   |       |           Button.cpp
+|   |       |           Button.h
+|   |       |           Checkbox.cpp
+|   |       |           Checkbox.h
+|   |       |           ConsoleDialog.cpp
+|   |       |           ConsoleDialog.h
+|   |       |           Dialog.cpp
+|   |       |           Dialog.h
+|   |       |           DropDownList.cpp
+|   |       |           DropDownList.h
+|   |       |           ExitDialog.cpp
+|   |       |           ExitDialog.h
+|   |       |           Font.cpp
+|   |       |           Font.h
+|   |       |           FriendInfo.cpp
+|   |       |           FriendInfo.h
+|   |       |           FriendList.cpp
+|   |       |           FriendList.h
+|   |       |           FriendsDialog.cpp
+|   |       |           FriendsDialog.h
+|   |       |           ListView.h
+|   |       |           ListView.inl
+|   |       |           NotificationDialog.cpp
+|   |       |           NotificationDialog.h
+|   |       |           PopupDialog.cpp
+|   |       |           PopupDialog.h
+|   |       |           ProgressBar.cpp
+|   |       |           ProgressBar.h
+|   |       |           Scroller.cpp
+|   |       |           Scroller.h
+|   |       |           SDLTTF.cpp
+|   |       |           SDLTTF.h
+|   |       |           SelectableStringViewListEntry.cpp
+|   |       |           SelectableStringViewListEntry.h
+|   |       |           Sprite.cpp
+|   |       |           Sprite.h
+|   |       |           StringViewListEntry.cpp
+|   |       |           StringViewListEntry.h
+|   |       |           TableRowView.cpp
+|   |       |           TableRowView.h
+|   |       |           TableView.h
+|   |       |           TableView.inl
+|   |       |           TextEditor.cpp
+|   |       |           TextEditor.h
+|   |       |           TextField.cpp
+|   |       |           TextField.h
+|   |       |           TextLabel.cpp
+|   |       |           TextLabel.h
+|   |       |           Texture.cpp
+|   |       |           Texture.h
+|   |       |           TextureManager.cpp
+|   |       |           TextureManager.h
+|   |       |           TextView.cpp
+|   |       |           TextView.h
+|   |       |           TransferProgressDialog.cpp
+|   |       |           TransferProgressDialog.h
+|   |       |           UIEvent.h
+|   |       |           Widget.cpp
+|   |       |           Widget.h
+|   |       |           
+|   |       +---Input
+|   |       |       Input.cpp
+|   |       |       Input.h
+|   |       |       SDLInput.cpp
+|   |       |       SDLInput.h
+|   |       |       
+|   |       +---Main
+|   |       |   |   Main.cpp
+|   |       |   |   Main.h
+|   |       |   |   
+|   |       |   +---SDL
+|   |       |   |       SDLMain.cpp
+|   |       |   |       
+|   |       |   \---Windows
+|   |       |           DeviceResources.cpp
+|   |       |           DeviceResources.h
+|   |       |           WinMain.cpp
+|   |       |           
+|   |       +---Math
+|   |       |       Color.h
+|   |       |       Matrix.h
+|   |       |       Vector2.cpp
+|   |       |       Vector2.h
+|   |       |       Vector3.cpp
+|   |       |       Vector3.h
+|   |       |       
+|   |       +---Steam
+|   |       |       SteamManager.cpp
+|   |       |       SteamManager.h
+|   |       |       
+|   |       \---Utils
+|   |               CircularBuffer.h
+|   |               CommandLine.cpp
+|   |               CommandLine.h
+|   |               DebugLog.cpp
+|   |               DebugLog.h
+|   |               Settings.cpp
+|   |               Settings.h
+|   |               StepTimer.h
+|   |               StringUtils.cpp
+|   |               StringUtils.h
+|   |               Utils.cpp
+|   |               Utils.h
+|   |               
+|   +---Store
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   Store.vcxproj
+|   |   |   Store.vcxproj.filters
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           OfferInfo.cpp
+|   |           OfferInfo.h
+|   |           OfferList.cpp
+|   |           OfferList.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           Store.cpp
+|   |           Store.h
+|   |           StoreDialog.cpp
+|   |           StoreDialog.h
+|   |           
+|   +---TitleStorage
+|   |   |   Build.command
+|   |   |   Build.sh
+|   |   |   CMakeLists.txt
+|   |   |   CopyAssetsToBuilds.bat
+|   |   |   CopyAssetsToBuilds.sh
+|   |   |   CopyAssetsToBuildsSDL.bat
+|   |   |   Install.command
+|   |   |   Install.sh
+|   |   |   Run.command
+|   |   |   Run.sh
+|   |   |   Run_Install.command
+|   |   |   Run_Install.sh
+|   |   |   settings.manifest
+|   |   |   TitleStorage.vcxproj
+|   |   |   TitleStorage.vcxproj.filters
+|   |   |   
+|   |   +---cmake
+|   |   |       FindSDL2.cmake
+|   |   |       FindSDL2TTF.cmake
+|   |   |       
+|   |   \---Source
+|   |           Game.cpp
+|   |           Game.h
+|   |           Game.icns
+|   |           game.ico
+|   |           Level.h
+|   |           Menu.cpp
+|   |           Menu.h
+|   |           resource.aps
+|   |           resource.rc
+|   |           SampleConstants.h
+|   |           TitleStorage.cpp
+|   |           TitleStorage.h
+|   |           TitleStorageDialog.cpp
+|   |           TitleStorageDialog.h
+|   |           
+|   \---Voice
+|       +---Client
+|       |   |   Build.command
+|       |   |   Build.sh
+|       |   |   CMakeLists.txt
+|       |   |   CopyAssetsToBuilds.bat
+|       |   |   CopyAssetsToBuilds.sh
+|       |   |   CopyAssetsToBuildsSDL.bat
+|       |   |   Install.command
+|       |   |   Install.sh
+|       |   |   Run.command
+|       |   |   Run.sh
+|       |   |   Run_Install.command
+|       |   |   Run_Install.sh
+|       |   |   settings.manifest
+|       |   |   Voice.vcxproj
+|       |   |   Voice.vcxproj.filters
+|       |   |   
+|       |   +---cmake
+|       |   |       FindSDL2.cmake
+|       |   |       FindSDL2TTF.cmake
+|       |   |       
+|       |   \---Source
+|       |           Game.cpp
+|       |           Game.h
+|       |           Game.icns
+|       |           game.ico
+|       |           Level.h
+|       |           Menu.cpp
+|       |           Menu.h
+|       |           resource.aps
+|       |           resource.rc
+|       |           SampleConstants.h
+|       |           Voice.cpp
+|       |           Voice.h
+|       |           VoiceDialog.cpp
+|       |           VoiceDialog.h
+|       |           VoiceRoomMemberTableRowView.cpp
+|       |           VoiceRoomMemberTableRowView.h
+|       |           VoiceSetupDialog.cpp
+|       |           VoiceSetupDialog.h
+|       |           
+|       \---Server
+|           |   Build.command
+|           |   Build.sh
+|           |   CMakeLists.txt
+|           |   Run.command
+|           |   Run.sh
+|           |   VoiceServer.vcxproj
+|           |   VoiceServer.vcxproj.filters
+|           |   
+|           \---Source
+|               |   ApiParams.cpp
+|               |   ApiParams.h
+|               |   Game.icns
+|               |   game.ico
+|               |   NonCopyable.h
+|               |   pch.cpp
+|               |   pch.h
+|               |   SampleConstants.h
+|               |   VoiceApi.cpp
+|               |   VoiceApi.h
+|               |   VoiceHost.cpp
+|               |   VoiceHost.h
+|               |   VoiceRequest.cpp
+|               |   VoiceRequest.h
+|               |   VoiceRequestJoin.cpp
+|               |   VoiceRequestJoin.h
+|               |   VoiceRequestKickUser.cpp
+|               |   VoiceRequestKickUser.h
+|               |   VoiceRequestMuteUser.cpp
+|               |   VoiceRequestMuteUser.h
+|               |   VoiceSdk.cpp
+|               |   VoiceSdk.h
+|               |   VoiceSession.cpp
+|               |   VoiceSession.h
+|               |   VoiceUser.h
+|               |   
+|               \---Main
+|                       MacMain.h
+|                       MacMain.mm
+|                       Main.cpp
+|                       Main.h
+|                       ServerMain.cpp
+|                       
++---SDK
+|   +---Bin
+|   |   |   EOSSDK-Win32-Shipping.dll
+|   |   |   EOSSDK-Win64-Shipping.dll
+|   |   |   libEOSSDK-Linux-Shipping.so
+|   |   |   libEOSSDK-Mac-Shipping.dylib
+|   |   |   
+|   |   +---x64
+|   |   |       xaudio2_9redist.dll
+|   |   |       
+|   |   \---x86
+|   |           xaudio2_9redist.dll
+|   |           
+|   +---Include
+|   |   |   eos_achievements.h
+|   |   |   eos_achievements_types.h
+|   |   |   eos_achievements_types_deprecated.inl
+|   |   |   eos_anticheatclient.h
+|   |   |   eos_anticheatclient_types.h
+|   |   |   eos_anticheatclient_types_deprecated.inl
+|   |   |   eos_anticheatcommon_types.h
+|   |   |   eos_anticheatserver.h
+|   |   |   eos_anticheatserver_types.h
+|   |   |   eos_auth.h
+|   |   |   eos_auth_types.h
+|   |   |   eos_base.h
+|   |   |   eos_common.h
+|   |   |   eos_connect.h
+|   |   |   eos_connect_types.h
+|   |   |   eos_custominvites.h
+|   |   |   eos_custominvites_types.h
+|   |   |   eos_ecom.h
+|   |   |   eos_ecom_types.h
+|   |   |   eos_friends.h
+|   |   |   eos_friends_types.h
+|   |   |   eos_init.h
+|   |   |   eos_integratedplatform.h
+|   |   |   eos_integratedplatform_types.h
+|   |   |   eos_kws.h
+|   |   |   eos_kws_types.h
+|   |   |   eos_leaderboards.h
+|   |   |   eos_leaderboards_types.h
+|   |   |   eos_leaderboards_types_deprecated.inl
+|   |   |   eos_lobby.h
+|   |   |   eos_lobby_types.h
+|   |   |   eos_logging.h
+|   |   |   eos_metrics.h
+|   |   |   eos_metrics_types.h
+|   |   |   eos_mods.h
+|   |   |   eos_mods_types.h
+|   |   |   eos_p2p.h
+|   |   |   eos_p2p_types.h
+|   |   |   eos_platform_prereqs.h
+|   |   |   eos_playerdatastorage.h
+|   |   |   eos_playerdatastorage_types.h
+|   |   |   eos_presence.h
+|   |   |   eos_presence_types.h
+|   |   |   eos_progressionsnapshot.h
+|   |   |   eos_progressionsnapshot_types.h
+|   |   |   eos_reports.h
+|   |   |   eos_reports_types.h
+|   |   |   eos_result.h
+|   |   |   eos_rtc.h
+|   |   |   eos_rtc_admin.h
+|   |   |   eos_rtc_admin_types.h
+|   |   |   eos_rtc_audio.h
+|   |   |   eos_rtc_audio_types.h
+|   |   |   eos_rtc_types.h
+|   |   |   eos_sanctions.h
+|   |   |   eos_sanctions_types.h
+|   |   |   eos_sdk.h
+|   |   |   eos_sessions.h
+|   |   |   eos_sessions_types.h
+|   |   |   eos_stats.h
+|   |   |   eos_stats_types.h
+|   |   |   eos_titlestorage.h
+|   |   |   eos_titlestorage_types.h
+|   |   |   eos_types.h
+|   |   |   eos_ui.h
+|   |   |   eos_ui_keys.h
+|   |   |   eos_ui_types.h
+|   |   |   eos_userinfo.h
+|   |   |   eos_userinfo_types.h
+|   |   |   eos_version.h
+|   |   |   
+|   |   +---Linux
+|   |   |       eos_Linux_base.h
+|   |   |       
+|   |   +---Mac
+|   |   |       eos_Mac_base.h
+|   |   |       
+|   |   \---Windows
+|   |           eos_Windows.h
+|   |           eos_Windows_base.h
+|   |           
+|   +---Lib
+|   |       EOSSDK-Win32-Shipping.lib
+|   |       EOSSDK-Win64-Shipping.lib
+|   |       
+|   \---Tools
+|       |   EOS Developer Authentication Tool.pdf
+|       |   EOSBootstrapper.exe
+|       |   EOSBootstrapperTool.exe
+|       |   EOS_AntiCheatTools-linux-x64-2.0.0.zip
+|       |   EOS_AntiCheatTools-mac-x64-2.0.0.zip
+|       |   EOS_AntiCheatTools-win32-x64-2.0.0.zip
+|       |   EOS_DevAuthTool-darwin-x64-1.1.0.zip
+|       |   EOS_DevAuthTool-win32-x64-1.1.0.zip
+|       |   EpicOnlineServicesInstaller.exe
+|       |   
+|       \---FileDecryptionTool
+|               EOS-FileDecryptionTool.exe
+|               
+\---ThirdPartyNotices
+        ThirdPartySoftwareNotice.txt
+        
